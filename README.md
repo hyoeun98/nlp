@@ -2,6 +2,10 @@
 
 ## Preprocessing
 
+### Tokenization
+
+#### BPE(Byte Pair Encoding)
+
 ## Model
 
 ## 참고 
