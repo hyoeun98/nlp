@@ -45,6 +45,69 @@ WPM을 수행한 결과(wordpieces): _J et _makers _fe ud _over _seat _width _wi
     - 손실이 가장 큰 토큰부터 제거
     
 - Sentencepiece
+    - pretokenization 없이 토큰화 가능 -> 어떤 언어에도 적용 가능
+
+```
+import sentencepiece as spm
+import pandas as pd
+import urllib.request
+import csv
+```
+importing
+```
+urllib.request.urlretrieve("https://raw.githubusercontent.com/LawrenceDuan/IMDb-Review-Analysis/master/IMDb_Reviews.csv", filename="IMDb_Reviews.csv")
+train_df = pd.read_csv('IMDb_Reviews.csv')
+```
+train data
+```
+with open('imdb_review.txt', 'w', encoding = 'utf-8') as f:
+    f.write('\n'.join(train_df['review']))
+```
+txt 파일로 저장    
+```
+spm.SentencePieceTrainer.Train('--input=imdb_review.txt --model_prefix=imdb --vocab_size=5000 --model_type=bpe --max_sentence_length=9999')
+```
+학습, model 파일 & vocab 파일 생성
+```
+sp = spm.SentencePieceProcessor()
+vocab_file = "imdb.model"
+sp.load(vocab_file)
+```
+
+Encoding = 문장을 subword, subword index로 변환 (encode_as_pieces(), encode_as_ids())\
+Decoding = subword, subword index를 문장으로 변환 (DecodeIds(), DecodePieces())
+
+- SubwordTextEncoder
+    - tensorflow를 통해 사용가능
+    - bpe와 유사한 Wordpiece Model
+    - tf2.3- -> tfds.features.text
+    - tf2.3+ -> tfds.deprecated.text
+```
+import tensorflow_datasets as tfds
+import urllib.request
+import pandas as pd
+```
+importing
+```
+urllib.request.urlretrieve("https://raw.githubusercontent.com/LawrenceDuan/IMDb-Review-Analysis/master/IMDb_Reviews.csv", filename="IMDb_Reviews.csv")
+train_df = pd.read_csv('IMDb_Reviews.csv')
+```
+train data
+```
+tokenizer = tfds.features.text.SubwordTextEncoder.build_from_corpus(train_df['review'], target_vocab_size=2**13)
+```
+tokenization
+```
+encoded = tokenizer.encode(train_df['review'][20])
+decoded = tokenizer.decode(encoded)
+print(decoded)
+```
+21번째 문장을 정수 encoding 후 다시 decoding
+```
+for ts in encoded:
+    print('{} ----> {}'.format(ts,tokenizer.decode([ts])))
+```
+subword index - subword 간 맵핑 확인
 
 ## Model
 
