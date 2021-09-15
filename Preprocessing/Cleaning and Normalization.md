@@ -11,7 +11,6 @@ print(shortword.sub('', text))
 ```
 ```
 was wondering anyone out there could enlighten this car.
-
 ```
 길이가 2이하인 단어를 정규 표현식을 이용하여 삭제
 
