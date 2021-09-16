@@ -62,7 +62,6 @@ morphs 형태소 추출, pos 품사 태깅, nouns 명사 추출
 - Subword segmentation
 - 희귀 단어, 신조어 파악 가능
 - 연속적으로 가장 많이 등장한 글자의 쌍을 찾아서 하나의 글자로 병합
-- 
 ```
 aaabdaaabac
 
