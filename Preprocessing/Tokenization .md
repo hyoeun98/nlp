@@ -97,7 +97,7 @@ WPM을 수행한 결과(wordpieces): _J et _makers _fe ud _over _seat _width _wi
     - 각각의 subword들에 대한 loss 계산 (subword가 vocabulary에서 제거되었을 때 감소하는 likelihood)
     - 손실이 가장 큰 토큰부터 제거
     
-- Sentencepiece
+### Sentencepiece
     - pretokenization 없이 토큰화 가능 -> 어떤 언어에도 적용 가능
 
 ```
@@ -130,7 +130,7 @@ sp.load(vocab_file)
 Encoding = 문장을 subword, subword index로 변환 (encode_as_pieces(), encode_as_ids())\
 Decoding = subword, subword index를 문장으로 변환 (DecodeIds(), DecodePieces())
 
-- SubwordTextEncoder
+### SubwordTextEncoder
     - tensorflow를 통해 사용가능
     - bpe와 유사한 Wordpiece Model
     - tf2.3- -> tfds.features.text
