@@ -50,3 +50,34 @@ print([l.stem(w) for w in words])
 ### Korean stemming
 - Conjugation(활용) : 용언의 어간이 어미를 가지는 일
 - 규칙 활용 / 불규칙 활용
+
+## Stopword
+- 자주 등장하지만 분석을 함에 있어서 큰 도움이 되지 않는 단어
+
+```
+from nltk.corpus import stopwords  
+stopwords.words('english')
+```
+179개의 stopword가 등록
+
+```
+from nltk.corpus import stopwords 
+from nltk.tokenize import word_tokenize 
+
+example = "Family is not an important thing. It's everything."
+stop_words = set(stopwords.words('english')) 
+
+word_tokens = word_tokenize(example)
+
+result = []
+for w in word_tokens: 
+    if w not in stop_words: 
+        result.append(w) 
+
+print(word_tokens) 
+print(result) 
+```
+- 참고할 만한 한국어 불용어
+  - https://www.ranks.nl/stopwords/korean
+  - https://bab2min.tistory.com/544
+
