@@ -60,3 +60,36 @@ padding을 위해 단어 집합의 크기를 +1
 
 - 단어 집합에 없는 단어(OOV)는 인코딩 과정에서 제거
 - oov_token의 OOV 인덱스 : 1 
+
+### One-Hot Encoding
+- vocabulary : 서로 다른 단어들의 집합
+- book, books도 다른 단어로 간주
+- 단어 집합의 크기 = 벡터의 차원
+1. 각 단어에 고유한 인덱스 부여
+2. 표현하고 싶은 단어의 인덱스에 1, 나머지에 0
+
+- Keras의 One-Hot Encoding
+```
+from tensorflow.keras.preprocessing.text import Tokenizer
+from tensorflow.keras.utils import to_categorical
+
+text="나랑 점심 먹으러 갈래 점심 메뉴는 햄버거 갈래 갈래 햄버거 최고야"
+
+t = Tokenizer()
+t.fit_on_texts([text])
+print(t.word_index) # 각 단어에 대한 인코딩 결과 출력.
+
+encoded=t.texts_to_sequences([text])[0]
+print(encoded) # text를 인코딩된 정수 시퀀스로 변환
+
+one_hot = to_categorical(encoded)
+print(one_hot) # 원-핫 인코딩 
+```
+
+-Cons 
+  - 비효율적인 저장 공간
+  - 단어의 유사도 표현 불가
+- 대안
+  - 카운트 기반 LSA, HAL
+  - 예측 기반 NNLM, RNNLM, Word2Vec, FastText
+  - 모두 사용하는 GloVe
