@@ -16,3 +16,12 @@
 
 - 적용 분야에 맞는 코퍼스를 수집해야 함
 - 선천적인 문제점으로 인해 인공 신경망을 사용한 언어 모델이 대세
+
+### Korean Language Model
+- 어순이 중요하지 않음
+- 토큰화를 통해 단어를 분리해야 함
+- 띄어쓰기가 지켜지지 않음
+
+### Perplexity(PPL) #perplexed 헷갈리는
+- 모델 내에서 성능을 수치화하는 내부 평가(Intrinsic evaluation)
+- 선택 가능한 경우의 수를 의미하는 분기계수(branching factor)
