@@ -5,6 +5,7 @@
 - https://wikidocs.net/book/2155 (딥 러닝을 이용한 자연어 처리 입문)
 - https://www.kaggle.com/ (kaggle)
 - http://www.ontorus.net/page/default.aspx (Korean thesaurus)
+- https://github.com/uoneway/Text-Summarization-Repo 텍스트 요약
 
 ## Korean NLP Package
 - KoNLPy https://github.com/konlpy/konlpy 형태소 분석, 품사 태깅
