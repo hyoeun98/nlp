@@ -1,78 +1,23 @@
 # 선형대수학
+### Keyword
+Span, linearly independent, linearly dependent 
 
+### 선형독립
+- 선형 결합시 0벡터가 되기 위해 모든 상수c가 0이 되어야 한다. 
+
+### 특이값 분해 (Singular Value Decomposition)
+- 
 ### 전치 행렬(Transposed Matrix)
 - 행렬을 뒤집은 행렬
-- <math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
-  <mi>M</mi>
-  <mo>=</mo>
-  <mrow data-mjx-texclass="INNER">
-    <mo data-mjx-texclass="OPEN">[</mo>
-    <mtable columnalign="left left" columnspacing="1em" rowspacing="4pt">
-      <mtr>
-        <mtd>
-          <mn>1</mn>
-        </mtd>
-        <mtd>
-          <mn>2</mn>
-        </mtd>
-      </mtr>
-      <mtr>
-        <mtd>
-          <mn>3</mn>
-        </mtd>
-        <mtd>
-          <mn>4</mn>
-        </mtd>
-      </mtr>
-      <mtr>
-        <mtd>
-          <mn>5</mn>
-        </mtd>
-        <mtd>
-          <mn>6</mn>
-        </mtd>
-      </mtr>
-    </mtable>
-    <mo data-mjx-texclass="CLOSE">]</mo>
-  </mrow>
-  <mstyle scriptlevel="0">
-    <mspace width="1em"></mspace>
-  </mstyle>
-  <msup>
-    <mi>M</mi>
-    <mrow>
-      <mrow>
-        <mi mathvariant="normal">T</mi>
-      </mrow>
-    </mrow>
-  </msup>
-  <mo>=</mo>
-  <mrow data-mjx-texclass="INNER">
-    <mo data-mjx-texclass="OPEN">[</mo>
-    <mtable columnalign="left left left" columnspacing="1em" rowspacing="4pt">
-      <mtr>
-        <mtd>
-          <mn>1</mn>
-        </mtd>
-        <mtd>
-          <mn>3</mn>
-        </mtd>
-        <mtd>
-          <mn>5</mn>
-        </mtd>
-      </mtr>
-      <mtr>
-        <mtd>
-          <mn>2</mn>
-        </mtd>
-        <mtd>
-          <mn>4</mn>
-        </mtd>
-        <mtd>
-          <mn>6</mn>
-        </mtd>
-      </mtr>
-    </mtable>
-    <mo data-mjx-texclass="CLOSE">]</mo>
-  </mrow>
-</math>
+
+### 단위 행렬(Identify Matrix)
+- 주대각선의 원소가 모두 1이며 나머지 원소는 모두 0인 정사각 행렬
+
+### 역행렬(Inverse Matrix)
+- 어떤 행렬과 곱했을 때, 단위 행렬이 나오는 행렬
+
+### 직교 행렬(Orthogonal Matrix)
+- 직교 행렬이 역행렬이 되는 행렬
+
+### 대각 행렬(Diagonal Matrix)
+- 주대각선을 제외한 원소가 모두 0인 행렬
