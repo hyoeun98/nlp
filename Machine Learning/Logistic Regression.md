@@ -7,6 +7,7 @@
 ![image](https://user-images.githubusercontent.com/62679143/135709491-92dcaa9d-edcc-438b-a9e7-458153d6bc5b.png)
 
 - 0 ~ 1의 값을 가지며 S자형 곡선을 가지는 함수
+- 0.5 이상은 1, 0.5 이하는 0
 - W가 커질수록 경사가 가파르다
 
 ### Cost funcction
