@@ -9,6 +9,25 @@ Span, linearly independent, linearly dependent
 basis : 어떠한 공간을 생성하는데 필요한 minimum set
   - S(set of vectors)가  subspace을 span한다
   - 선형 독립이다
+
+Dot Product(내적)
+- 두 벡터의 성분을 서로 곱하여 더한 실수 값(scalar)
+
+
+Length
+![image](https://user-images.githubusercontent.com/62679143/135800054-3d24015d-e595-4616-b1ae-f60a073bb7eb.png) 
+- 길이의 제곱은 같은 벡터를 내적한 값과 같다
+
+
+Cauchy Schwarz Inequality
+- 두 벡터의 내적의 절댓값은 두 벡터의 길이의 곱보다 작거나 같다 
+- 한 벡터가 다른 벡터의 스칼라배일 때 두 벡터의 길이의 곱은 내적과 같다
+
+Triangle Inequality
+- 두 벡터의 합의 길이는 각각의 길이의 합보다 작거나 같다
+- 한 벡터가 다른 벡터의 스칼라배일 때 등식이 성립한다
+
+
 ### 선형독립
 - 선형 결합시 0벡터가 되기 위해 모든 상수c가 0이 되어야 한다. 
 
