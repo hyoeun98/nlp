@@ -12,9 +12,12 @@ basis : 어떠한 공간을 생성하는데 필요한 minimum set
 
 Dot Product(내적)
 - 두 벡터의 성분을 서로 곱하여 더한 실수 값(scalar)
-
+- 두 벡터의 내적은 벡터 길이와 cosine의 곱과 같다
+- 
+![image](https://user-images.githubusercontent.com/62679143/135958645-3bd08114-b58e-4fc0-88c0-3c1d560cc656.png)
 
 Length
+
 ![image](https://user-images.githubusercontent.com/62679143/135800054-3d24015d-e595-4616-b1ae-f60a073bb7eb.png) 
 - 길이의 제곱은 같은 벡터를 내적한 값과 같다
 
@@ -26,6 +29,24 @@ Cauchy Schwarz Inequality
 Triangle Inequality
 - 두 벡터의 합의 길이는 각각의 길이의 합보다 작거나 같다
 - 한 벡터가 다른 벡터의 스칼라배일 때 등식이 성립한다
+
+Perpendicular
+- 영벡터가 아닌 두 벡터 사이의 각도가 90, 내적 값이 0
+  - Orthogonal : 두 벡터의 내적 값이 0 
+- 영벡터는 모든 벡터와 orthogonal이지만 perpendicular는 아님
+
+normal vector (법선 벡터)
+- 면의 모든 벡터와 직각을 이루는 벡터
+- 법선 벡터와 3차원 면 위에 존재하는 두 점의 차는 수직이다. 
+
+Cross Product (외적)
+- 3차원 실수 공간에서만 정의
+- 두 벡터에 대해 모두 orthogonal한 벡터가 결과로 나옴
+- 두 벡터의 외적의 절댓값은 평행사변형의 넓이와 같다
+![image](https://user-images.githubusercontent.com/62679143/135953755-91d4f424-8996-4212-9329-068184982b7b.png)
+
+![image](https://user-images.githubusercontent.com/62679143/135958650-04acf084-4861-4888-8b59-5e3179c2cebf.png)
+
 
 
 ### 선형독립
