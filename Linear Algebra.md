@@ -13,7 +13,6 @@ basis : 어떠한 공간을 생성하는데 필요한 minimum set
 Dot Product(내적)
 - 두 벡터의 성분을 서로 곱하여 더한 실수 값(scalar)
 - 두 벡터의 내적은 벡터 길이와 cosine의 곱과 같다
-- 
 ![image](https://user-images.githubusercontent.com/62679143/135958645-3bd08114-b58e-4fc0-88c0-3c1d560cc656.png)
 
 Length
@@ -40,14 +39,17 @@ normal vector (법선 벡터)
 - 법선 벡터와 3차원 면 위에 존재하는 두 점의 차는 수직이다. 
 
 Cross Product (외적)
-- 3차원 실수 공간에서만 정의
+- 3차원 실수 공간에서만 정의 
 - 두 벡터에 대해 모두 orthogonal한 벡터가 결과로 나옴
 - 두 벡터의 외적의 절댓값은 평행사변형의 넓이와 같다
 ![image](https://user-images.githubusercontent.com/62679143/135953755-91d4f424-8996-4212-9329-068184982b7b.png)
 
 ![image](https://user-images.githubusercontent.com/62679143/135958650-04acf084-4861-4888-8b59-5e3179c2cebf.png)
 
-
+dot product = ab* cos(두 벡터가 얼마나 같은 방향을 향하는가)
+cross product = ab* sin (두 벡터가 얼마나 수직인가)
+ orthographic projection (정사영)
+ -
 
 ### 선형독립
 - 선형 결합시 0벡터가 되기 위해 모든 상수c가 0이 되어야 한다. 
