@@ -46,10 +46,12 @@ Cross Product (외적)
 
 ![image](https://user-images.githubusercontent.com/62679143/135958650-04acf084-4861-4888-8b59-5e3179c2cebf.png)
 
-dot product = ab* cos(두 벡터가 얼마나 같은 방향을 향하는가)
-cross product = ab* sin (두 벡터가 얼마나 수직인가)
- orthographic projection (정사영)
- -
+- dot product = ab* cos(두 벡터가 얼마나 같은 방향을 향하는가)
+- cross product = ab* sin (두 벡터가 얼마나 수직인가)
+- orthographic projection (정사영)
+
+Triple product
+- ![image](https://user-images.githubusercontent.com/62679143/136934863-81abeab4-e0b7-4443-ab4b-212e75b23767.png)
 
 ### 선형독립
 - 선형 결합시 0벡터가 되기 위해 모든 상수c가 0이 되어야 한다. 
