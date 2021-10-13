@@ -37,6 +37,7 @@ Perpendicular
 normal vector (법선 벡터)
 - 면의 모든 벡터와 직각을 이루는 벡터
 - 법선 벡터와 3차원 면 위에 존재하는 두 점의 차는 수직이다. 
+- 평면 Ax+By+Cz=D에서 법선벡터는 Ai+Bj+Ck이다. 
 
 Cross Product (외적)
 - 3차원 실수 공간에서만 정의 
@@ -52,6 +53,7 @@ Cross Product (외적)
 
 Triple product
 - ![image](https://user-images.githubusercontent.com/62679143/136934863-81abeab4-e0b7-4443-ab4b-212e75b23767.png)
+
 
 ### 선형독립
 - 선형 결합시 0벡터가 되기 위해 모든 상수c가 0이 되어야 한다. 
