@@ -15,3 +15,9 @@
 - ReLU function - dying ReLU 문제
 - Leaky ReLU - Input이 음수일 경우 매우 작은 수(hyper parameter) 변환
 - Softmax function - 출력층에서 사용, Multi-Class Classification
+
+### Forward Propagation (순전파)
+- 입력층에서 출력층 방향으로 연산을 진행하며 입력으로부터 예측값을 계산
+
+### Back Propagation (역전파)
+- 순전파의 반대 방향으로 연산을 진행하며 가중치를 업데이트
