@@ -6,6 +6,7 @@
 - https://www.kaggle.com/ (kaggle)
 - http://www.ontorus.net/page/default.aspx (Korean thesaurus)
 - https://github.com/uoneway/Text-Summarization-Repo 텍스트 요약
+- https://dacon.io/ 데이콘
 
 ## Korean NLP Package
 - KoNLPy https://github.com/konlpy/konlpy 형태소 분석, 품사 태깅
