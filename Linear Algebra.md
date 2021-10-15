@@ -58,6 +58,9 @@ Triple product
 점과 평면 사이의 거리
 - ![image](https://user-images.githubusercontent.com/62679143/137434240-92a1da80-1d59-438b-b828-8d7aa0fa423a.png)
 
+평면 사이의 거리
+- 평행하지 않은 평면 간의 거리는 0
+- 평면 위의 한 점과 다른 평면과의 거리를 구함
 ### 선형독립
 - 선형 결합시 0벡터가 되기 위해 모든 상수c가 0이 되어야 한다. 
 
