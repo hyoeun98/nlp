@@ -39,11 +39,12 @@ normal vector (법선 벡터)
 - 법선 벡터와 3차원 면 위에 존재하는 두 점의 차는 수직이다. 
 - 평면 Ax+By+Cz=D에서 법선벡터는 Ai+Bj+Ck이다. 
 
+
 Cross Product (외적)
 - 3차원 실수 공간에서만 정의 
 - 두 벡터에 대해 모두 orthogonal한 벡터가 결과로 나옴
 - 두 벡터의 외적의 절댓값은 평행사변형의 넓이와 같다
-![image](https://user-images.githubusercontent.com/62679143/135953755-91d4f424-8996-4212-9329-068184982b7b.png)
+- ![image](https://user-images.githubusercontent.com/62679143/135953755-91d4f424-8996-4212-9329-068184982b7b.png)
 
 ![image](https://user-images.githubusercontent.com/62679143/135958650-04acf084-4861-4888-8b59-5e3179c2cebf.png)
 
@@ -54,6 +55,8 @@ Cross Product (외적)
 Triple product
 - ![image](https://user-images.githubusercontent.com/62679143/136934863-81abeab4-e0b7-4443-ab4b-212e75b23767.png)
 
+점과 평면 사이의 거리
+- ![image](https://user-images.githubusercontent.com/62679143/137434240-92a1da80-1d59-438b-b828-8d7aa0fa423a.png)
 
 ### 선형독립
 - 선형 결합시 0벡터가 되기 위해 모든 상수c가 0이 되어야 한다. 
