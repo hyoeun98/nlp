@@ -61,6 +61,16 @@ Triple product
 평면 사이의 거리
 - 평행하지 않은 평면 간의 거리는 0
 - 평면 위의 한 점과 다른 평면과의 거리를 구함
+
+
+기약행사다리꼴 (Reduced Row-Echelon Form)
+- 선행계수(row에서 처음 등장하는 0이 아닌 수)가 모두 1인 행사다리꼴(Row-Echelon Form)
+- Pivot Entry : 각 column에서 유일하게 0이 아닌 수
+- zeroed out row : row의 모든 계수가 0인 행, 행렬의 가장 밑에 존재
+- Pivot variable <--> Free variable
+- 
+
+
 ### 선형독립
 - 선형 결합시 0벡터가 되기 위해 모든 상수c가 0이 되어야 한다. 
 
