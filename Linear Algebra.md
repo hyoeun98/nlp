@@ -68,7 +68,10 @@ Triple product
 - Pivot Entry : 각 column에서 유일하게 0이 아닌 수
 - zeroed out row : row의 모든 계수가 0인 행, 행렬의 가장 밑에 존재
 - Pivot variable <--> Free variable
-- 
+
+Linear System
+- 0 = N no solution
+- 0 = have free entry, 0 infinite solution
 
 
 ### 선형독립
