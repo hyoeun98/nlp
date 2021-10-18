@@ -16,9 +16,9 @@
 - soynlp https://github.com/lovit/soynlp 단어 추출, 품사 태깅, 토큰화
 
 ## Hot Paper
-- [Attention Is All You Need](papers.nips.cc/paper/7181-attention-is-all-you-need.pdf)
-- [BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding](arxiv.org/pdf/1810.04805.pdf)
-- [Language Models are Few-Shot Learners](arxiv.org/pdf/2005.14165.pdf)
+- [Attention Is All You Need](https://papers.nips.cc/paper/7181-attention-is-all-you-need.pdf)
+- [BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding](https://arxiv.org/pdf/1810.04805.pdf)
+- [Language Models are Few-Shot Learners](https://arxiv.org/pdf/2005.14165.pdf)
 
 ## Transformer, Attention
 - https://ahnjg.tistory.com/57
