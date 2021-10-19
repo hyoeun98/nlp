@@ -68,11 +68,17 @@ Triple product
 - Pivot Entry : 각 column에서 유일하게 0이 아닌 수
 - zeroed out row : row의 모든 계수가 0인 행, 행렬의 가장 밑에 존재
 - Pivot variable <--> Free variable
+- 한 row의 vector 가 모두 0일때
+  - 0 = N no solution
+  - 0 = 0 have free entry, 0 infinite solution
 
-Linear System
-- 0 = N no solution
-- 0 = have free entry, 0 infinite solution
+Subspace 
+- 부분공간은 덧셈, 곱셈에 대해 닫혀있다 
+- 부분공간은 영벡터를 포함한다
 
+null space
+- 행렬 A에 대해 A * N = 0 을 만족하는 벡터의 집합 N
+- A의 영공간은 A의 기약행사다리꼴의 영공간과 같다. 
 
 ### 선형독립
 - 선형 결합시 0벡터가 되기 위해 모든 상수c가 0이 되어야 한다. 
@@ -80,7 +86,7 @@ Linear System
 ### 특이값 분해 (Singular Value Decomposition)
 - 
 ### 전치 행렬(Transposed Matrix)
-- 행렬을 뒤집은 행렬
+- 행렬의 row와 column을 뒤바꾼 행렬
 
 ### 단위 행렬(Identify Matrix)
 - 주대각선의 원소가 모두 1이며 나머지 원소는 모두 0인 정사각 행렬
