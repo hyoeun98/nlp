@@ -82,6 +82,9 @@ null space
 - A의 열벡터들이 선형독립이라면 N(A)  = 0벡터이다.
   - = A의 null space가 0벡터를 포함한다면 A의 column vector는 선형독립이다. 
 
+Column Space
+- 행렬 A의 column vector들의 모든 linear combination
+
 ### 선형독립
 - 선형 결합시 0벡터가 되기 위해 모든 상수c가 0이 되어야 한다. 
 - 
