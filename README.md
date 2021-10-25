@@ -19,6 +19,7 @@
 - [Attention Is All You Need](https://papers.nips.cc/paper/7181-attention-is-all-you-need.pdf)
 - [BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding](https://arxiv.org/pdf/1810.04805.pdf)
 - [Language Models are Few-Shot Learners](https://arxiv.org/pdf/2005.14165.pdf)
+- [ALBERT: A LITE BERT FOR SELF-SUPERVISED LEARNING OF LANGUAGE REPRESENTATIONS](https://arxiv.org/pdf/1909.11942.pdf)
 
 ## Transformer, Attention
 - https://ahnjg.tistory.com/57
