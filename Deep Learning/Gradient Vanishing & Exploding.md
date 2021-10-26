@@ -24,6 +24,9 @@
   - Covariate Shift : train data의 분포와 test data의 분포가 달라지는 현상
   - 이전 층들의 가중치가 바뀌면, 현재 층에 전달되는 Input data가 현재 층이 학습했던 시점의 Input data와 다름
 - 추가 필요
-
+- ![image](https://user-images.githubusercontent.com/62679143/138884016-81039666-629e-405b-9880-0d96306aab8f.png)
 ### Layer Normalization
-- 추가 필요
+
+- ![image](https://user-images.githubusercontent.com/62679143/138884041-3fdb22ba-fa1a-43e7-a914-856301b07f13.png)
+
+
