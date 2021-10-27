@@ -21,6 +21,7 @@
 - [Language Models are Few-Shot Learners](https://arxiv.org/pdf/2005.14165.pdf)
 - [ALBERT: A LITE BERT FOR SELF-SUPERVISED LEARNING OF LANGUAGE REPRESENTATIONS](https://arxiv.org/pdf/1909.11942.pdf)
 - [RoBERTa: A Robustly Optimized BERT Pretraining Approach](https://arxiv.org/pdf/1907.11692.pdf)
+- [ERNIE: Enhanced Language Representation with Informative Entities](https://aclanthology.org/P19-1139.pdf)
 
 ## Transformer, Attention
 - https://ahnjg.tistory.com/57
