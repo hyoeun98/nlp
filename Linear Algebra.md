@@ -77,13 +77,15 @@ Subspace
 - 부분공간은 영벡터를 포함한다
 
 null space
-- 행렬 A에 대해 A * N = 0 을 만족하는 벡터의 집합 N
+- 행렬 A에 대해 A *(dot prouct) N = 0 을 만족하는 벡터의 집합 N
 - A의 영공간은 A의 기약행사다리꼴의 영공간과 같다. 
 - A의 열벡터들이 선형독립이라면 N(A)  = 0벡터이다.
   - = A의 null space가 0벡터를 포함한다면 A의 column vector는 선형독립이다. 
 
 Column Space
 - 행렬 A의 column vector들의 모든 linear combination
+- A의 column space = column vector의 너비
+- column vector들이 linear independent라면 column space의 basis가 된다
 
 ### 선형독립
 - 선형 결합시 0벡터가 되기 위해 모든 상수c가 0이 되어야 한다. 
