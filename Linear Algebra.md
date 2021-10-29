@@ -86,6 +86,10 @@ Column Space
 - 행렬 A의 column vector들의 모든 linear combination
 - A의 column space = column vector의 너비
 - column vector들이 linear independent라면 column space의 basis가 된다
+- A의 span은 A의 column vector의 생성과 같다
+- pivot 변수를 가진 행들의 linear combination으로 free 변수를 가진 행을 나타낼 수 있다
+- basis vector는 자신들의 column space에 존재함
+
 
 ### 선형독립
 - 선형 결합시 0벡터가 되기 위해 모든 상수c가 0이 되어야 한다. 
