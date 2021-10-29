@@ -18,7 +18,7 @@ options.add_argument('--disable-dev-shm-usage') # 공유 메모리를 담당하�
 URL = 'https://google.com'
 driver = webdriver.Chrome('chromedriver',options=options)
 driver.get(URL)
-print(wd.current_url)
+print(driver.current_url)
 driver.implicitly_wait(time_to_wait=5) #로드될 때까지 5초 대기
 element = driver.find_element_by_class_name('gLFyf')
 # element = driver.find_element_by_xpath('/html/body/div[1]/div[3]/form/div[1]/div[1]/div[1]/div/div[2]/input')
