@@ -81,14 +81,19 @@ null space
 - A의 영공간은 A의 기약행사다리꼴의 영공간과 같다. 
 - A의 열벡터들이 선형독립이라면 N(A)  = 0벡터이다.
   - = A의 null space가 0벡터를 포함한다면 A의 column vector는 선형독립이다. 
-
+- Nullity(A): A의 null space의 dimension = # of non-pivot variable in rref(A)
+ 
 Column Space
-- 행렬 A의 column vector들의 모든 linear combination
+- 행렬 A의 column vector들의 모든 linear combination = span(column vectors)
 - A의 column space = column vector의 너비
 - column vector들이 linear independent라면 column space의 basis가 된다
 - A의 span은 A의 column vector의 생성과 같다
 - pivot 변수를 가진 행들의 linear combination으로 free 변수를 가진 행을 나타낼 수 있다
 - basis vector는 자신들의 column space에 존재함
+- basis of C(A) = rref(A)의 pivot columns
+- basis of C(A)의 dimension(rank) = # of pivot columns
+  - rank: dimension of column space 
+
 
 
 ### 선형독립
