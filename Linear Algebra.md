@@ -95,7 +95,6 @@ Column Space
   - rank: dimension of column space 
 
 
-
 ### 선형독립
 - 선형 결합시 0벡터가 되기 위해 모든 상수c가 0이 되어야 한다. 
 - 
