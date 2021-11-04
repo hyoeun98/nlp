@@ -1,4 +1,4 @@
-# NLP
+# NLP Note
 
 ## 참고 
 - https://kcorpus.korean.go.kr/, https://corpus.korean.go.kr/ (Korean corpus)
