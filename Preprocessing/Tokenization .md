@@ -160,3 +160,6 @@ for ts in encoded:
     print('{} ----> {}'.format(ts,tokenizer.decode([ts])))
 ```
 subword index - subword 간 맵핑 확인
+
+###
+[품사 표](https://docs.google.com/spreadsheets/d/1OGAjUvalBuX-oZvZ_-9tEfYD2gQe7hTGsgUpiiBSXI8/edit#gid=0)
