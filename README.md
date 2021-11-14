@@ -26,3 +26,6 @@
 ## Transformer, Attention
 - https://ahnjg.tistory.com/57
 - https://blog.promedius.ai/transformer/
+
+## Note
+- csv가 느릴 때는 Parquet 사용
