@@ -16,5 +16,7 @@
 - LSTM을 이용하여 성능향상
   - long-term dependency를 처리하기에 적합
   - Encoder의 마지막 hidden state만 context vector로 사용
+  - 논문의 model은 4-layer LSTM 사용
 - Encoder, Decoder의 가중치가 다르다
 - 입력 문장의 순서를 거꾸로 했을 때 더 높은 정확도를 보임
+- beam search decoder
