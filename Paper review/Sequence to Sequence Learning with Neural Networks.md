@@ -20,3 +20,6 @@
 - Encoder, Decoder의 가중치가 다르다
 - 입력 문장의 순서를 거꾸로 했을 때 더 높은 정확도를 보임
 - beam search decoder
+
+### Referrence
+[[딥러닝 기계 번역] Seq2Seq: Sequence to Sequence Learning with Neural Networks (꼼꼼한 딥러닝 논문 리뷰와 코드 실습)](https://www.youtube.com/watch?v=5n3uSXM2kU4)
