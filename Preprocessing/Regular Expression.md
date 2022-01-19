@@ -32,3 +32,5 @@
 |re.findall()|(r'패턴 문자열', '문자열')|
 |re.finditer()|정규 표현식과 매치되는 모든 문자열 리턴(iterater)|
 |re.sub()|(정규 표현식, 치환 문자 , 대상 문자열)|
+
+[참조](https://greeksharifa.github.io/%EC%A0%95%EA%B7%9C%ED%91%9C%ED%98%84%EC%8B%9D(re)/2018/08/04/regex-usage-05-intermediate/)
