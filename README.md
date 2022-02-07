@@ -24,6 +24,7 @@
 - [RoBERTa: A Robustly Optimized BERT Pretraining Approach](https://arxiv.org/pdf/1907.11692.pdf)
 - [ERNIE: Enhanced Language Representation with Informative Entities](https://aclanthology.org/P19-1139.pdf)
 - [Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer](https://arxiv.org/pdf/1910.10683.pdf)
+- [Batch Normalization: Accelerating Deep Network Training b yReducing Internal Covariate Shift](https://arxiv.org/pdf/1502.03167.pdf)
 
 ## Transformer, Attention
 - https://ahnjg.tistory.com/57
