@@ -33,3 +33,4 @@
 ## Note
 - csv가 느릴 때는 Parquet 사용
 - [Stemming, Lemmatization은 필수인가?](https://inhyeokyoo.github.io/nlp/korean-preprocessing/#lemmatization-stemming)
+- 한국어 Thesaurus 구축
