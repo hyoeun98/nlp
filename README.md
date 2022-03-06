@@ -35,3 +35,6 @@
 - [Stemming, Lemmatization은 필수인가?](https://inhyeokyoo.github.io/nlp/korean-preprocessing/#lemmatization-stemming)
 - 한국어 Thesaurus 구축
 - [bm25](https://littlefoxdiary.tistory.com/12)
+- https://paperswithcode.com/
+- https://deeplearn.org/
+- http://arxiv-sanity.com/
